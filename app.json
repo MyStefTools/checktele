@@ -1,0 +1,39 @@
+{
+    "name": "StefTools",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "repository": "https://github.com/bhthh/ah",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/bhthh/ah",
+    "env": {
+        "APP_ID": {
+            "description": "ايبي ايدي - APP ID",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "ايبي هاش - API HASH",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس - Code Termux",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن - Token",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت - User Bot",
+            "value": "",
+            "required": true
+        }
+    }
+}
